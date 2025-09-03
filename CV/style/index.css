@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.nav-bar{
+    padding: 1em;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: white;
+    padding: 1em;
+}
+a:hover, th{
+    color: green;
+}
+h1, h2, h3, h3, h4, h5{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h1, h2, h3, h3, h4, p{
+    color: white;
+}
+
+p{
+    margin-bottom: 2rem;
+}
+
+h5{
+    color: green;
+}
+.aboutme-judul{
+    font-weight: normal;
+}
+
+#photoprofile {
+    width: 650px;
+}
+#photoabtme{
+    width: 300px;
+    margin-right: 20px;
+}
+
+.aboutme-isi{
+    margin-top: 30px;
+    padding-left: 40px;
+}
+p.aboutme-deskripsi{
+    font-size: 18px;
+    line-height: 30px;
+}
+a.logos{
+    width: 50%;
+    filter: saturate(0%); 
+    transition: filter 0.3s ease;
+}
+a.logos:hover{
+    filter: saturate(100%);
+}
